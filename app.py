@@ -12,7 +12,7 @@ except Exception as e:
     st.stop()
 
 # App title
-st.title("🩺 Diabetes Risk Assessment")
+st.title(" Diabetes Risk Assessment")
 
 # User Inputs
 glucose = st.number_input("Glucose Level", min_value=0.0, format="%.2f")
